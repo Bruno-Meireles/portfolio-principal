@@ -1,0 +1,55 @@
+
+
+
+
+        Interno - <a href="#contato">Contato</a>
+        Redirecionará ao elemento âncora contato.
+
+
+
+https://bruno-meireles.github.io/Barbearia-alura/
+pagina de salão de cabelheleiro com 3 links incluindo home , produtos e contatos.
+
+
+
+
+Um site para divulgação da Alura Plus, uma plataforma de streaming com os conteúdos educacionais da Alura.
+https://bruno-meireles.github.io/Alura-plus/
+
+
+
+
+
+
+
+
+
+Projeto pagina Fruta $ Fruto responsiva
+https://bruno-meireles.github.io/fruta-fruto/
+
+https://bruno-meireles.github.io/site-viagens/
+
+https://bruno-meireles.github.io/alura-newsletter/
+HTML
+Tailwind CSS
+
+
+
+
+https://bruno-meireles.github.io/culturama-alura/
+O Culturama é um site para divulgação de eventos culturais, criado especialmente para este curso, aqui você pode acessar o figma do projeto.
+
+
+
+
+
+
+https://bruno-meireles.github.io/monibank-alura/
+Formulário de criação de contas para o banco virtual MoniBank.
+
+https://bruno-meireles.github.io/lista-de-compras/
+
+ class="projetos-todos-itens"
+
+
+
