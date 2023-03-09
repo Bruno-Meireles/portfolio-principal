@@ -11,6 +11,7 @@
     --var-cor-douradoclaro:#d4ad83;
     --var-cor-cinzaclaro:#c3c3c3; 
     --var-cor-cinzaescuro:#181818; 
+    flex-wrap: wrap;
     
 }
 
@@ -31,7 +32,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 3%;
+    padding: 2%;
     margin-left: 5%;
     margin-right: 5%;   
     font-family: 'Poppins', sans-serif;
@@ -54,6 +55,8 @@ body {
 ul :hover {
     color: var(--var-cor-azul);
     text-decoration: underline;
+    font-size: 25px;
+    transition: 0.5s;
     
 }
 
@@ -176,27 +179,22 @@ ul :hover {
 
 
 .projetos-titulo-principal {
-    margin-top:250px;
     font-size: 55px;
+    text-align: center;
+    color: var(--var-cor-branco);
 }
 .cards {
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
     gap: 15px;
- margin-left: 20px;
+    margin-left: 20px;
         
 }
 
 .card {
     padding: 20px;   
     
-}
-
-.projetos-titulo-principal {
-    text-align: center;
-    color: var(--var-cor-branco);
-
 }
 
 .projetos-imagem {
@@ -211,10 +209,10 @@ ul :hover {
 }
 
 .projetos-secao-unica {
-    width: 450px;
+    
     height: 550px;
     border-radius: 8px;
-    margin-top: 50px;
+    margin-top: 45px;
     background-color: var(--var-cor-pretoescuro);
     
 }
@@ -321,7 +319,8 @@ ul :hover {
 }
 
 img {
-    margin-top: 30%;
+    margin-top: 32%;
+    
 }
 
 
@@ -406,7 +405,7 @@ img {
             font-size:20px;
           }
   
-            img {
+            .logo-icons {
               width: 63px;
             }
   
