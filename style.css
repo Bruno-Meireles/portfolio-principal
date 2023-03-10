@@ -21,6 +21,7 @@
 body {
     width: 100vw;
     background-color: var(--var-cor-pretoescuro);
+    overflow-x: hidden;
 }
 
 .cabecalho-nome-logo {
@@ -214,7 +215,7 @@ ul :hover {
 }
 
 .projetos-secao-unica {
-
+  
     height: 550px;
     border-radius: 8px;
     margin-top: 45px;
@@ -500,35 +501,19 @@ button {
         margin-top: 30px;
         flex-wrap: wrap;
         
-       
     }
+   
 
-    .my-icon {
-        display: block;
-        text-align: center;
-        margin: 10px;
-        font-size: 3rem;
-        cursor: pointer;
-        
-    }
-
-    i#burguer {
-       cursor: pointer;
-       
-       
-    }
-
+    
 
     .cabecalho-lista {
         text-decoration: underline;
         display: flex;
         flex-direction: column;  
         margin: 20px;       
-        margin-left: 10%;
+        text-align: auto;
         border-radius: 4px;
-        font-size: 2rem;
-        
-        
+        font-size: 2rem;    
         
     }
 
@@ -540,45 +525,92 @@ button {
     .conteudo {
         display: flex;
         flex-direction: column;
+        text-align: center;
+
+    margin-left: 173px;
+
     }
 
-    .conteudo-paragrafo {
+    .conteudo-paragrafo p {
         padding: 7px;
+        text-align: center;       
+        
     }
+
+
+
+    .projetos-titulo-principal {
+        margin-left: 49px;
+    }
+
+    .projetos-titulo {
+        font-size: 17px;
+    }
+
+    .projetos-paragrafo {
+        font-size: 15px;
+        margin-left: 12px;
+        margin-right: 12px;
+    }
+    
+
+   
 
     .conteudo-link {
         margin: auto;
     }
 
     .imagem-perfil {
-        margin-left: 42px;
+        margin-left: 0px;
+    }
+
+    .sobre-titulo {
+        margin-left: 49px;
     }
     
     .sobre-texto {
      font-size: 1rem; 
-     margin-left: 0px; 
+     margin-left:25px; 
      margin-right: 0px; 
+     text-align: center;
     }
 
     .cards {
-        margin-left: 54px;
+        margin-left: 49px;
+    }
+
+    .projetos-imagem {
+        width: 309px;
+        margin-left: 52px;
+    }
+
+
+
+    .formacao-titulo-principal {
+        margin-left: 49px;
     }
 
     .formacao {
-        margin-left: 54px;
+        margin-left: 94px;
     }
 
-    .formacao-titulo {
-        text-align: center;
+    
+
+
+    .faculdade-imagem {
+        width: 309px;
+        margin-right: 49px;
+
     }
-    .formacao-subtitulo {
-        text-align: center;
+
+    .skills-titulo {
+        margin-left: 49px;
     }
 
     .skills-todas {
         display: flex;
         flex-direction: column;
-        align-items: center;
+        align-items: center;margin-left: 70px;
     }
 
     .skills-box {
@@ -602,7 +634,7 @@ button {
     .redes-sociais {
         display: flex;
         justify-content: space-around;
-        margin-right: 30px;
+       
     }
 
     .form {
@@ -620,6 +652,9 @@ button {
         margin-left: 25px;
     }
     
+    .form-content {
+        margin-right: 29px;
+    }
     
     
 
