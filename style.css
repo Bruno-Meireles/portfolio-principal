@@ -214,15 +214,6 @@ ul :hover {
     color: var(--var-cor-branco);
 }
 
-.projetos-secao-unica {
-  
-    height: 550px;
-    border-radius: 8px;
-    margin-top: 45px;
-    background-color: var(--var-cor-pretoescuro);
-
-}
-
 .projetos-item {
     display: flex;
     flex-direction: column;
@@ -652,6 +643,10 @@ button {
         margin-left: 25px;
     }
     
+    .dados {
+        flex: 0;
+    }
+
     .form-content {
         margin-right: 29px;
     }
